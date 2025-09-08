@@ -1,0 +1,29 @@
+site_name: Verve Docs
+theme:
+  name: material
+extra_css:
+  - css/landing.css
+
+nav:
+  - Home: index.md
+  - Smaato:
+      - Getting Started: smaato/getting-started.md
+      - Inventory Setup: smaato/inventory-setup.md
+      - SPX Mediation: smaato/spx-mediation.md
+      - SPX OTT Platform: smaato/spx-ott.md
+      - Reporting UI: smaato/reporting-ui.md
+      - Reporting API: smaato/reporting-api.md
+      - Privacy Sandbox: smaato/privacy-sandbox.md
+      - SDK iOS: smaato/sdk/ios.md
+      - SDK Android: smaato/sdk/android.md
+      - API Reference: smaato/api-reference.md
+  - Pubnative:
+      - Getting Started: pubnative/getting-started.md
+      - Inventory Setup: pubnative/inventory-setup.md
+      - Mediation: pubnative/mediation.md
+      - Reporting UI: pubnative/reporting-ui.md
+      - Reporting API: pubnative/reporting-api.md
+      - Privacy Sandbox: pubnative/privacy-sandbox.md
+      - SDK iOS: pubnative/sdk/ios.md
+      - SDK Android: pubnative/sdk/android.md
+      - API Reference: pubnative/api-reference.md

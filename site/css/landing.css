@@ -1,0 +1,21 @@
+.selector {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: .75rem;
+  margin: .75rem 0 1rem 0;
+}
+.selector .row {
+  display: flex; flex-direction: column;
+}
+.selector label { font-size: .85rem; opacity: .8; margin-bottom: .25rem; }
+
+.card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 12px;
+  padding: 1rem;
+  background: var(--md-default-bg-color);
+  box-shadow: var(--md-shadow-z1);
+  margin: .5rem 0 0 0;
+}
+.link-list { list-style: none; padding-left: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap: .5rem; }
+.link-list .md-button { width: 100%; text-align: left; }
