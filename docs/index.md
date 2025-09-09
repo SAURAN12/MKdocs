@@ -44,7 +44,7 @@ Find topics about your integrations. Choose your **role**, **brand**, and **cont
   <!-- =============== RESULTS: SMAATO =============== -->
   <div class="result" data-brand="smaato" data-type="guides" hidden>
     <div class="card">
-      <h3>Smaato — Guides</h3>
+      <h3>Smaato — Guide</h3>
       <p>Implementation and optimization content for publishers and demand partners.</p>
       <ul class="link-list">
         <li><a class="md-button" href="smaato/getting-started/">Getting Started</a></li>
