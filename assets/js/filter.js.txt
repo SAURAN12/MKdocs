@@ -1,0 +1,8 @@
+function initFilterWidget() {
+  const mount = document.getElementById('filter-docs');
+  if (!mount) return;           // this page doesn't use the widget
+  // ... build your dropdowns + results here ...
+}
+
+document.addEventListener('DOMContentLoaded', initFilterWidget);
+if (window.document$) window.document$.subscribe(initFilterWidget); // Material support

@@ -8,6 +8,8 @@
       
       
       
+        <link rel="canonical" href="https://github.com/SAURAN12/?tab=repositories/">
+      
       
       
       
@@ -39,7 +41,7 @@
       
     
     
-      <link rel="stylesheet" href="css/landing.css">
+      <link rel="stylesheet" href="assets/css/filters.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -813,7 +815,11 @@
     <select id="typeSelect" disabled>
       <option value="" selected disabled>Choose…</option>
       <option value="guides">Guides</option>
-      <option value="api">API Reference</option>
+      <option value="changelog">FAQ</option>
+      <option value="gettingstarted">Getting Started</option>
+      <option value="releasenote">Release Note</option>
+      <option value="changelog">Change Log</option>
+      <option value="api">API Documentation</option>
     </select>
   </div>
 </div>
@@ -861,12 +867,14 @@
       </ul>
     </div>
   </div>
-
   <div class="result" data-brand="pubnative" data-type="api" hidden>
-    <div class="card">
-      <h3>Pubnative — API Reference</h3>
-      <a class="md-button md-button--primary" href="pubnative/api-reference/">Open Pubnative API Reference</a>
-    </div>
+  <div class="card">
+  <h3>PubNative - [PUBLISHER] API Documentation</h3>  
+  <ul class="link-list">
+  <li><a href="openrtb-api/">OpenRTB API</a></li>
+  <li><a href="https://developers.verve.com/reference/pubnative-vast-tag">VAST API</a></li>
+  <li><a href="https://developers.verve.com/reference/reporting-apil">Reporting API</a></li>
+  </ul>
   </div>
 
   <!-- Optional: marketer routes could point to brand-agnostic or to both -->
@@ -961,6 +969,8 @@ typeSel.addEventListener('change', () => {
     
     
       <script src="assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+        <script src="assets/js/filters.js"></script>
       
     
   </body>
